@@ -1,0 +1,90 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: black;
+  color: white;
+}
+nav{
+  background: linear-gradient(to right , rgb(2, 22, 47) , rgb(46, 111, 185));
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  font-size: 24px;
+  align-items: center;
+  padding: 20px;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-left: 15px;
+}
+
+.Search input{
+  padding: 14px 30px;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.Search button{
+  padding: 12px 26px;
+  margin-left: 10px;
+  font-size: 18px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.Category{
+  width: 900px;
+  margin: 50px auto;
+}
+.Category button{
+  padding: 12px 26px;
+  margin-left: 20px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(14, 42, 119);
+  color: white;
+
+}
+
+.product{
+  width: 1170px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.card{
+  width: 500px;
+  background-color: rgb(54, 53, 53);
+  margin: 20px;
+  padding: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.card img{
+  height: 300px;
+  width: 300px;
+  margin: 20px;
+}
+
+.card button{
+  padding: 8px 12px ;
+  margin-top: 10px;
+  padding: 12px 26px;
+  font-size: 16px;
+  border-radius: 10px;
+  font-weight: bold;
+  background-color: rgb(14, 42, 119);
+  color: white;
+
+}
